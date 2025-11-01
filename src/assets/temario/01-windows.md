@@ -1,12 +1,12 @@
 [TOC]
 
-------
-
-
-
 # Sistemas operativos
 
-Un **sistema operativo** (SO) es un software fundamental que actúa como intermediario entre la parte física de una computadora (*hardware*) y las aplicaciones que se ejecutan en ella (*software*). Su función principal es gestionar los recursos del sistema y proporcionar una interfaz para que los usuarios interactúen con la máquina.
+
+
+> [!important]
+>
+> Un **sistema operativo** (SO) es un software fundamental que actúa como intermediario entre la parte física de una computadora (*hardware*) y las aplicaciones que se ejecutan en ella (*software*). Su función principal es gestionar los recursos del sistema y proporcionar una interfaz para que los usuarios interactúen con la máquina.
 
 Un sistema operativo debe realizar las siguientes tareas:
 
@@ -16,19 +16,19 @@ Un sistema operativo debe realizar las siguientes tareas:
 2. **Interfaz de usuario**:
    - Facilita la ejecución de programas y la gestión de archivos.
    - Proporciona una interfaz gráfica y/o de línea de comandos para que los usuarios interactúen con la computadora.
-<img src="img/01-windows/image-20240704115036419.png" alt="Interfaz de usuario de Windows" class="img-preview"/>
-<img src="img/01-windows/image-20240704115350454.png" alt="Interfaz de usuario de una línea de comandos" class="img-preview" />
+   <img src="img/01-windows/image-20240704115036419.png" alt="Interfaz de usuario de Windows" class="img-preview"/>
+   <img src="img/01-windows/image-20240704115350454.png" alt="Interfaz de usuario de una línea de comandos" class="img-preview" />
 
 
 3. **Seguridad y protección**:
    - Controla el acceso a recursos y datos.
    - Implementa medidas de seguridad como contraseñas y permisos.
 
-<img src="img/01-windows/image-20240704120211791.png" alt="Administrador de recursos de Windows 11" style="width:70%" />
+<img src="img/01-windows/image-20240704120211791.png" alt="Administrador de recursos de Windows 11" class="img-preview" />
 
 ## Windows
 
-Windows es un sistema operativo desarrollado por Microsoft. Es el software que gestiona los recursos de un ordenador y proporciona servicios esenciales para las aplicaciones y el usuario. Desde su lanzamiento inicial en 1985, Windows se ha convertido en el sistema operativo más utilizado en el mundo para computadoras personales.
+Windows es un sistema operativo **desarrollado por Microsoft**. Es el software que gestiona los recursos de un ordenador y proporciona servicios esenciales para las aplicaciones y el usuario. Desde su lanzamiento inicial en 1985, Windows se ha convertido en el **sistema operativo más utilizado en el mundo** para computadoras personales.
 
 ### Historia y versiones
 
@@ -60,11 +60,11 @@ Windows es un sistema operativo desarrollado por Microsoft. Es el software que g
 
 - **Windows 10 (2015):** Windows 10 combinó elementos de Windows 7 y 8, reintroduciendo el botón de Inicio y mejorando la integración de aplicaciones tanto para dispositivos táctiles como para PCs tradicionales. Ofreció actualizaciones de seguridad constantes y el asistente digital Cortana.
 
-  <img src="img/01-windows/windows10.jpg" alt="Pantalla principal Windows 10" style="width:80%" />
+  <img src="img/01-windows/windows10.jpg" alt="Pantalla principal Windows 10" class="img-preview" />
 
 - **Windows 11 (2021):** La versión más reciente, Windows 11, trajo una interfaz de usuario modernizada con esquinas redondeadas, un nuevo diseño del menú de Inicio, mejoras en la productividad y una mayor integración con Microsoft Teams. Además, ofrece mejoras en rendimiento y soporte para aplicaciones de Android.
 
-  <img src="img/01-windows/Windows-11.jpg" alt="Pantalla principal Windows 11" style="width:80%" />
+  <img src="img/01-windows/Windows-11.jpg" alt="Pantalla principal Windows 11" class="img-preview" />
 
 ## Android
 
@@ -82,7 +82,7 @@ Android es un sistema operativo móvil desarrollado por **Google**, basado en el
 
 Inicialmente cada versión nueva de Android tenía un nombre en clave basado en un postre o dulce, siguiendo el orden alfabético. Esta tradición comenzó con Android 1.5 (Cupcake) y continuó hasta Android 9 (Pie). Sin embargo, Google decidió cambiar esta convención ya que no todos los nombres eran reconocidos o comprendidos mundialmente. Cambiar a números hace que las versiones sean más fácilmente reconocibles y comprensibles a nivel mundial.
 
-![Versiones de Android](img/01-windows/versiones-android.jpg)
+![Versiones de Android](img/01-windows/versiones-android.jpg){.rounded-4}
 
 > [!NOTE]
 >
@@ -97,7 +97,7 @@ Inicialmente cada versión nueva de Android tenía un nombre en clave basado en 
 
 En el momento en el que encendemos nuestro ordenador y Windows inicia, lo que vemos es lo que se llama la **pantalla de bloqueo**. Se trata de una imagen que podemos personalizar y que nos ofrece lo que podríamos considerar como información preliminar antes de trabajar cada día. La fecha, la hora, si la conexión de Internet está establecida o no y notificaciones personalizadas que, como veremos más adelante, podemos configurar. Algo como lo siguiente, con una de las imágenes preestablecidas de Windows.
 
-![Login de Windows 10](img/01-windows/login-windows10.jpg)
+![Login de Windows 10](img/01-windows/login-windows10.jpg){.rounded-4}
 
 Aquí deberemos identificarnos como usuario del sistema operativo (algo que veremos más adelante). Para ello, debemos elegir un usuario de la lista de la esquina inferior izquierda y posteriormente introducir la contraseña o pin que se haya establecido para ese usuario. Los usuarios y contraseñas normalmente se crean durante la instalación del sistema operativo, aunque se pueden gestionar a posteriori (añadir, eliminar usuarios, cambiar contraseñas, etc.).
 
@@ -165,7 +165,7 @@ Según la captura anterior, aparecen en orden los siguientes elementos:
 
 1. **Botón de Inicio:** El botón de inicio se encuentra en el extremo izquierdo de la barra de tareas. Al hacer clic en este botón, se abre el menú de inicio, desde donde puedes acceder a todas las aplicaciones, configuraciones y archivos. En Windows 11 por primera vez se sitúa por defecto en el centro en lugar de a la izquierda.
 
-2. **Barra de Búsqueda:** En Windows 10 y 11, la barra de tareas puede incluir una barra de búsqueda que permite a los usuarios buscar rápidamente aplicaciones, archivos y configuraciones en su computadora. También puede realizar búsquedas en la web y, en algunas versiones, integrarse con Cortana, el asistente digital de Microsoft, para realizar búsquedas y ejecutar comandos de voz.
+2. **Barra de Búsqueda:** En Windows 10 y 11, la barra de tareas puede incluir una barra de búsqueda que permite a los usuarios buscar rápidamente aplicaciones, archivos y configuraciones en su computadora. También puede realizar búsquedas en la web y, en algunas versiones, integrarse con Copilot, la IA de Microsoft, para realizar búsquedas y ejecutar comandos de voz.
 
 3. **Vista de Tareas:** La vista de tareas, accesible mediante un botón en la barra de tareas o presionando <kbd>Win + Tab</kbd>, muestra todas las aplicaciones y ventanas abiertas en una vista en miniatura. También permite acceder a los escritorios virtuales, que son escritorios adicionales donde puedes organizar tus aplicaciones y ventanas abiertas en grupos separados para mejorar la productividad.
 
@@ -313,6 +313,19 @@ Las ventanas son el componente principal en el que se ejecutan las aplicaciones 
 
 ---
 
+## 🧑‍🏫Práctica
+
+1. Usando lo que hemos visto, usa la **barra de búsqueda** para encontrar y **abrir la aplicación** <kbd>Calculadora</kbd>.
+2. Una vez abierta, **cambia el tamaño** de la ventana y **muévela** por el escritorio.
+3. Después, **acopla la ventana** en la mitad izquierda de la pantalla.
+4. Una vez acoplada, **maximízala** para que ocupe toda la pantalla.
+5. Ahora **minimízala** para ver como se dirige a la barra de tareas.
+6. Desde la barra de tareas, **vuelve a abrir la ventana**.
+7. **Restaura** su tamaño original.
+8. Y por último **cierra la ventana**. 
+
+---
+
 # Explorador de archivos
 
 ## Introducción
@@ -330,7 +343,9 @@ A la izquierda nos aparecerán las distintas ubicaciones de nuestro equipo y al 
 
 > [!IMPORTANT]
 >
-> Si hacemos doble clic sobre cualquier elemento, lo abriremos con la aplicación asociada para ese tipo de archivos. Por ejemplo, si hacemos doble clic sobre un archivo que es una imagen, se abrirá la aplicación *Fotos*. Si no hay instalada ninguna aplicación asociada, nos preguntará con cual aplicación debemos abrirla.
+> Si hacemos doble clic sobre cualquier elemento, lo abriremos con la aplicación asociada para ese tipo de archivos. 
+>
+> Por ejemplo, si hacemos doble clic sobre un archivo que es una imagen, se abrirá la aplicación *Fotos*. Si no hay instalada ninguna aplicación asociada, nos preguntará con cual aplicación debemos abrirla.
 
 
 
@@ -340,7 +355,9 @@ Los **accesos directos** son un tipo de archivo cuyo objetivo es **abrir de form
 
 ![Diferencia entre carpeta y acceso directo](img/01-windows/image-20240705124512420.png)
 
-Los accesos directos los podemos crear en cualquier parte, y los distinguimos porque, aunque el icono se puede personalizar, tienen un pequeño cuadradito con una flecha en su parte inferior izquierda. Por ejemplo, cuando instalamos un programa en Windows, lo normal es que todos sus archivos se instalen en una carpeta llamada `Archivos de programa` de tu disco duro. Pero cuando queremos ejecutar la aplicación, no vamos a esa carpeta cada vez a buscar el archivo ejecutable, ya que en el proceso de instalación se crean también accesos directos en el **Escritorio** y en una carpeta en **Todas las aplicaciones**, en el **Menú Inicio**.
+Los accesos directos los podemos crear en cualquier parte, y los distinguimos porque, aunque el icono se puede personalizar, tienen un pequeño cuadradito con una flecha en su parte inferior izquierda. 
+
+Por ejemplo, cuando instalamos un programa en Windows, lo normal es que todos sus archivos se instalen en una carpeta llamada `Archivos de programa` de tu disco duro. Pero cuando queremos ejecutar la aplicación, no vamos a esa carpeta cada vez a buscar el archivo ejecutable, ya que en el proceso de instalación se crean también accesos directos en el **Escritorio** y en una carpeta en **Todas las aplicaciones**, en el **Menú Inicio**.
 
 Por eso, aunque los accesos directos apuntan al archivo que ejecutan, son independientes, y **podemos borrarlos sin que eso borre el archivo o carpeta vinculado/a**.
 
@@ -352,7 +369,7 @@ Por eso, aunque los accesos directos apuntan al archivo que ejecutan, son indepe
 
   - **Enviar al escritorio:** `Seleccionar el archivo o carpeta que queremos crear el acceso directo` > `Clic derecho` > `Enviar a` > `Escritorio (crear acceso directo)`.
 
-  - **⭐Arrastrando (Recomendado):** Si arrastras un archivo o carpeta con el botón derecho, al soltarlo el botón, nos aparecerá un menú contextual y podremos seleccionar <kbd>Crear iconos de acceso directo aquí</kbd>. Se recomienda esta forma ya que es la más simple y versátil.
+  - **⭐Arrastrando (Recomendado):** Si arrastras un archivo o carpeta con el **botón derecho**, al soltarlo el botón, nos aparecerá un menú contextual y podremos seleccionar <kbd>Crear iconos de acceso directo aquí</kbd>. Se recomienda esta forma ya que es la más simple y versátil.
 
     ![Como crear un acceso directo](img/01-windows/crear-acceso-directo.gif)
   
@@ -366,7 +383,9 @@ El portapapeles es una función de Windows que permite almacenar temporalmente d
 
 ### Historial del portapapeles
 
-**Descripción:**  En las versiones anteriores solo se podía mantener un elemento en el portapapeles, de forma que al copiar un segundo elemento, se eliminaba el primero. En las versiones más recientes de Windows (10 en adelante), puedes activar y acceder al historial del portapapeles para ver y gestionar múltiples elementos copiados recientemente.
+En las versiones anteriores de Windows, solo se podía mantener un elemento en el portapapeles, de forma que al copiar un segundo elemento, se eliminaba el primero. 
+
+En las versiones más recientes de Windows (10 en adelante), puedes activar y acceder al historial del portapapeles para ver y gestionar múltiples elementos copiados recientemente.
 
 **Cómo hacerlo:**
 
@@ -387,7 +406,7 @@ El portapapeles es una función de Windows que permite almacenar temporalmente d
 
 ![Copiar](img/01-windows/image-20240705120708462.png)
 
-- **Descripción:** Duplica un archivo, carpeta o texto sin eliminar el original.
+- **Qué hace:** Duplica un archivo, carpeta o texto sin eliminar el original.
 - **Cómo hacerlo:**
   1. Selecciona el archivo, carpeta o texto que deseas copiar.
   2. Haz clic derecho sobre el elemento seleccionado y selecciona "Copiar" del menú contextual, o presiona <kbd>Ctrl + C</kbd>.
@@ -397,7 +416,7 @@ El portapapeles es una función de Windows que permite almacenar temporalmente d
 
 ![Pegar](img/01-windows/image-20240705122848632.png)
 
-- **Descripción:** Inserta la copia del archivo, carpeta o texto en la ubicación deseada.
+- **Qué hace:** Inserta la copia del archivo, carpeta o texto en la ubicación deseada.
 - **Cómo hacerlo:**
   1. Navega a la carpeta donde deseas pegar el archivo, carpeta o texto copiado.
   2. Haz clic derecho en la carpeta de destino y selecciona "Pegar" del menú contextual, o presiona <kbd>Ctrl + V</kbd>.
@@ -406,7 +425,7 @@ El portapapeles es una función de Windows que permite almacenar temporalmente d
 
 ![Cortar](img/01-windows/image-20240705123049424.png)
 
-**Descripción:**
+**Qué hace:**
 Traslada un archivo, carpeta o texto de una ubicación a otra, eliminándolo de su ubicación original.
 
 **Cómo hacerlo:**
@@ -431,21 +450,20 @@ Elimina un archivo o carpeta, enviándolo a la papelera de reciclaje.
 
 ![Papelera de reciclaje](img/01-windows/image-20240705123647229.png)
 
-**Descripción:**
+**Qué hace:**
 La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminados, permitiendo recuperarlos si se borraron por error. Su ubicación es un icono en el escritorio que cambia según tenga contenido o esté vacía.
 
-<div style="text-align:center">
-    <img src="img/01-windows/image-20240705140846113.png" alt="Papelera vacía" style="width:20%" />
-    <img src="img/01-windows/image-20240705140820861.png" alt="Papelera llena" style="width:20%" />
+<div style="display: flex; justify-content: space-around; margin: 1rem 0;">
+  <img src="img/01-windows/image-20240705140846113.png" alt="Papelera vacía" style="border-radius: 8px; width: 15%; height: auto;">
+  <img src="img/01-windows/image-20240705140820861.png" alt="Papelera llena" style="border-radius: 8px; width: 15%; height: auto;">
 </div>
-
 
 
 
 **Cómo funciona:**
 
 1. **Uso:** Cuando borramos un archivo o carpeta, si no es excesivamente grande, se mueven automáticamente a la papelera de reciclaje. No hay que hacer nada en especial.
-2. **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
+2. ###### **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
 3. **Restaurar Archivos:**
    - Selecciona el archivo o carpeta que deseas recuperar.
    - Haz clic derecho sobre el elemento seleccionado y selecciona <kbd>Restaurar</kbd> del menú contextual. El archivo o carpeta se devolverá a su ubicación original.
@@ -455,9 +473,55 @@ La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminad
 
 ---
 
+## 👩‍🏫Práctica
+
+1. **Abre** la aplicación <kbd>Bloc de notas</kbd>.
+
+2. Escribe el siguiente texto manualmente: <kbd>El feliz murciélago hindú comía feliz cardillo y kiwi.</kbd>
+
+3. Ahora **COPIA** el texto de la caja de texto y **PÉGALO** debajo de la línea anterior, también en el Bloc de notas.
+
+   ```markdown
+   La transformación digital ha cambiado por completo la manera en que trabajamos, aprendemos y nos comunicamos.
+   Hoy en día, las competencias digitales no son opcionales: son una necesidad básica para desenvolverse en la sociedad actual.
+   Desde la gestión de archivos en la nube hasta la seguridad de la información, cada habilidad tecnológica suma valor.
+   Formarse en este ámbito permite adaptarse mejor a los cambios y aprovechar las oportunidades que ofrece Internet.
+   En definitiva, la alfabetización digital es la clave para participar activamente en el mundo conectado.
+   ```
+
+4. **Guarda el archivo** en el escritorio, con el nombre de <kbd>Mi primerita nota.txt</kbd>.
+
+5. **Cierra** el Bloc de notas.
+
+6. **Localiza** el archivo que acabas de crear en el **Escritorio**.
+
+7. **Crea un acceso directo** a ese archivo y guárdalo también en el escritorio.
+
+8. **Comprueba que funciona** dicho acceso directo.
+
+9. **Renombra** el archivo original que creaste (no el acceso directo). Investiga como.
+
+10. **Comprueba** que el acceso directo siga funcionando.
+
+11. **Borra los dos archivos** que acabamos de crear (el archivo de texto y el acceso directo).
+
+12. **Ve a la papelera** de reciclaje y comprueba que estén allí.
+
+13. **Borra todo el contenido** de la papelera de reciclaje.
+
+---
+
+
+
 # Administración de cuentas
 
 Cada vez que empiezas a trabajar con Windows, debes de iniciar sesión con una cuenta de usuario. En breve aprenderás las distintas cuentas de usuario que existen y sus diferencias, pero primero tenemos que entender el motivo por el que se usan cuentas de usuario.
+
+> [!note]
+>
+> Las cuentas de usuarios en Windows son como los perfiles que usas en cualquier plataforma de vídeo como Netflix, Disney+ o HBO.
+>
+> <img src="img/01-windows/image-20251101194510844.png" alt="Ejemplo de Perfiles en Disney+" style="width:75%" />
 
 Es conveniente que **cada persona que use el PC lo haga en una cuenta de usuario por separado**. Esto proporciona varias ventajas como: 
 
@@ -475,7 +539,7 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
 
 ## Tipos de Cuentas
 
-**Cuentas Locales:** Una cuenta local es una cuenta que solo existe en el equipo específico donde se crea. No está vinculada a ninguna cuenta en línea.
+**💻Cuentas Locales:** Una cuenta local es una cuenta que solo existe en el equipo específico donde se crea. No está vinculada a ninguna cuenta en línea.
 
 - Ventajas:
   - **Privacidad:** Los datos de la cuenta no se sincronizan con ningún servidor en línea.
@@ -484,7 +548,7 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
   - **Limitaciones de Sincronización:** No permite sincronizar configuraciones y archivos entre dispositivos.
   - **Acceso a Servicios de Microsoft:** No permite el uso de algunos servicios y aplicaciones de Microsoft que requieren una cuenta de Microsoft.
 
-**Cuentas de Microsoft:** Una cuenta de Microsoft es una cuenta en línea que permite acceder a servicios como OneDrive, Office 365 y sincronizar configuraciones y archivos entre dispositivos.
+**🛜Cuentas de Microsoft:** Una cuenta de Microsoft es una cuenta en línea que permite acceder a servicios como OneDrive, Microsoft 365 y sincronizar configuraciones y archivos entre dispositivos.
 
 - Ventajas:
   - **Sincronización:** Permite sincronizar configuraciones, aplicaciones y archivos entre varios dispositivos.
@@ -495,14 +559,14 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
 
 ## Tipos de Usuarios
 
-**Usuario Estándar:** Una cuenta de usuario estándar tiene permisos limitados y no puede realizar cambios que afecten a otros usuarios del equipo o al sistema en general.
+🙎‍♂️**Usuario Estándar:** Una cuenta de usuario estándar tiene permisos limitados y no puede realizar cambios que afecten a otros usuarios del equipo o al sistema en general.
 
 - Ventajas:
   - **Seguridad:** Reduce el riesgo de instalar software malicioso y realizar cambios que puedan dañar el sistema.
   - **Protección:** Ideal para niños o usuarios que no necesitan realizar tareas administrativas.
 - **Usos Comunes:** Navegar por internet, usar aplicaciones, realizar tareas diarias.
 
-**Administrador:** Una cuenta de administrador tiene permisos completos para realizar cualquier cambio en el sistema, incluyendo la instalación de software, cambios en la configuración del sistema y la gestión de otras cuentas de usuario.
+🦸**Administrador:** Una cuenta de administrador tiene permisos completos para realizar cualquier cambio en el sistema, incluyendo la instalación de software, cambios en la configuración del sistema y la gestión de otras cuentas de usuario.
 
 - Ventajas:
   - **Control Completo:** Permite gestionar y configurar el sistema en su totalidad.
@@ -519,7 +583,7 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
 >
 > 🚨**MUY IMPORTANTE**🚨
 >
-> Para mejorar la seguridad, **se recomienda utilizar una cuenta de usuario estándar** para las tareas diarias y reservar la cuenta de administrador para cambios específicos en el sistema.
+> Para mejorar la seguridad, **se recomienda utilizar una cuenta de usuario estándar** para las tareas diarias y reservar la cuenta de administrador para cambios específicos en el sistema (instalar una aplicación, cambiar la configuración de red, etc).
 >
 > Usar una cuenta de administrador para todo puede hacer que el sistema sea más vulnerable a virus, malware y cambios accidentales que podrían afectar negativamente al sistema. Aunque tengas que introducir una contraseña para determinadas tareas, mejorará enormemente la seguridad del sistema. 
 
@@ -545,7 +609,7 @@ Para crear o modificar cuentas de usuario, puedes ir al **Panel de Control** y s
 
 ## Cambiar de cuenta de usuario
 
-Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer desde el **Menú Inicio**, como ya vimos en su [correspondiente sección](#🟩Menú Inicio).
+Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer desde el **Menú Inicio**, pulsando sobre el icono de tu usuario:
 
 <img src="img/01-windows/image-20240705144548460.png" alt="Cambiar de usuario" style="width:35%" />
 
@@ -563,7 +627,11 @@ Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer 
 
   ![Bloc de notas](img/01-windows/image-20240705155516024.png)
 
-- **WordPad**: Es un procesador de textos básico que ofrece más funcionalidades que el Bloc de Notas, como el formato de texto y la inserción de imágenes. Adecuado para documentos simples.
+- **WordPad**: Es un procesador de textos básico que ofrece más funcionalidades que el Bloc de Notas, como el formato de texto y la inserción de imágenes. Adecuado para documentos simples. 
+
+  > [!warning]
+  >
+  > En las versiones modernas de Windows 11, Wordpad ya no está disponible.
 
   ![WordPad](img/01-windows/image-20240705155624504.png)
 
@@ -622,3 +690,9 @@ Si se instala alguna actualización que necesite reiniciar, te aparecerá un ico
 También, en el menú apagado, si hay actualizaciones pendientes aparecerán opciones para actualizar primero y reiniciar o apagar después.
 
 ![image-20240705163628710](img/01-windows/image-20240705163628710.png)
+
+> [!important]
+>
+> - Si el puntito es azul 🔵, la actualización requiere que el equipo se reinicie, pero no es urgente.
+> - Si el puntito es naranja 🟠, la actualización requiere que el equipo se reinicie en cuanto antes. Si no lo haces manualmente, Windows puede hacerlo manualmente más tarde, por lo que se recomienda que lo hagas tú de forma controlada.
+> - En general, siempre es importante que reinicies para aplicar una actualización.
