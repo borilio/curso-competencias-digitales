@@ -1,0 +1,104 @@
+{
+  "tituloGeneral": "Curso Competencias Digitales",
+  "descripcion": "Este curso de alfabetización digital está diseñado para brindar a los participantes habilidades esenciales en el uso de la tecnología. A través de módulos que abarcan desde la navegación básica en Windows hasta la creación de documentos en Microsoft Word y Excel, los estudiantes adquirirán conocimientos prácticos. Además, se exploran temas como seguridad en línea, certificados digitales e inteligencia artificial ",
+  "img": "img/banner-competencias-digitales.png",
+  "mostrarBloquesEnMenu": false,
+  "bloques": [
+    {
+      "id": "troncal",
+      "orden": 1,
+      "titulo": "Temario",
+      "mostrarTitulo": true,
+      "descripcion": "",
+      "img": "",
+      "emoji": "📚",
+      "icon": "",
+      "color": "",
+      "expandible": true,
+      "contraido": false,
+      "habilitado": true,
+      "temas": [
+        {
+          "id": "intro",
+          "orden": 1,
+          "titulo": "Introducción",
+          "descripcion": "Introducción al curso",
+          "archivoMd": "00-intro.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "windows",
+          "orden": 2,
+          "titulo": "Sistemas operativos: Introducción a Windows",
+          "descripcion": "Introducción básica de Windows y nociones generales de sistemas operativos",
+          "archivoMd": "01-windows.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "ofimatica",
+          "orden": 3,
+          "titulo": "Ofimática Básica: Microsoft 365",
+          "descripcion": "Introducción básica a programas de ofimática",
+          "archivoMd": "02-ofimatica.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "internet",
+          "orden": 4,
+          "titulo": "Internet e Inteligencia Artificial",
+          "descripcion": "Introducción básica a nociones de internet, correo electrónico e Inteligencia Artificial",
+          "archivoMd": "03-internet.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": false
+        },
+        {
+          "id": "seguridad",
+          "orden": 5,
+          "titulo": "Ciberseguridad: Internet seguro",
+          "descripcion": "Introducción básica a ciberseguridad",
+          "archivoMd": "04-seguridad.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": false
+        },
+        {
+          "id": "certificado",
+          "orden": 6,
+          "titulo": "Certificado Digital y Mi Carpeta Ciudadana",
+          "descripcion": "Certificado Digital: Como solicitarlo, instalarlo, renovarlo o eliminarlo.  ",
+          "archivoMd": "05-certificado.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": false
+        }
+        
+        
+      ]
+    }
+  ]
+}
