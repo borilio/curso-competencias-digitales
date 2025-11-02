@@ -46,7 +46,7 @@
         },
         {
           "id": "ofimatica",
-          "orden": 3,
+          "orden": 4,
           "titulo": "Ofimática Básica: Microsoft 365",
           "descripcion": "Introducción básica a programas de ofimática",
           "archivoMd": "02-ofimatica.md",
@@ -59,7 +59,7 @@
         },
         {
           "id": "internet",
-          "orden": 4,
+          "orden": 3,
           "titulo": "Internet e Inteligencia Artificial",
           "descripcion": "Introducción básica a nociones de internet, correo electrónico e Inteligencia Artificial",
           "archivoMd": "03-internet.md",
@@ -68,7 +68,7 @@
           "icon": "pi pi-angle-right",
           "severity": "primary",
           "outlined": false,
-          "habilitado": false
+          "habilitado": true
         },
         {
           "id": "seguridad",
