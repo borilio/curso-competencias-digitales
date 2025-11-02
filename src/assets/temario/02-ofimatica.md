@@ -16,7 +16,7 @@ Estas herramientas son esenciales para la productividad en entornos laborales y 
 
 ## 🟦 Microsoft 365
 
-![logo-microsoft365](img/02-ofimatica/logo-microsoft365.webp)
+![logo-microsoft365](img/02-ofimatica/logo-microsoft365.webp){.rounded-4}
 
 **Microsoft 365**, anteriormente conocido como Office 365 (y antes Microsoft Office), es un **servicio de suscripción** de Microsoft que ofrece una suite completa de aplicaciones ofimáticas. Entre las aplicaciones más utilizadas se encuentran **Word**, **Excel**, **PowerPoint**, Outlook y OneNote. 
 
