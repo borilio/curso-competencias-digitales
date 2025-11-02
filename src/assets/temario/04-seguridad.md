@@ -1,16 +1,14 @@
 
 
-# Índice
-
 [TOC]
-
-------
 
 # 👮Seguridad Informática
 
-En la era digital actual, la seguridad informática es crucial **tanto en el ámbito personal como laboral**. Proteger nuestros datos personales y profesionales de amenazas cibernéticas se ha vuelto esencial para evitar pérdidas económicas, robo de identidad y otros daños. Conocer los conceptos básicos de seguridad informática nos permite tomar medidas preventivas y reaccionar adecuadamente ante posibles incidentes.
+En la era digital actual, la seguridad informática es crucial **tanto en el ámbito personal como laboral**. Proteger nuestros datos personales y profesionales de amenazas cibernéticas se ha vuelto esencial para evitar pérdidas económicas, robo de identidad y otros daños. 
 
-![Una persona vulnerable usando un ordenador en primer plano, y una persona con la máscara de Anonymous acechando en la sombra, representando una amenaza omnipresente en el contexto de la seguridad informática.](img/04-seguridad/seguridad-informatica-dalle.jpg)
+Conocer los conceptos básicos de seguridad informática nos permite tomar medidas preventivas y reaccionar adecuadamente ante posibles incidentes.
+
+![Una persona vulnerable usando un ordenador en primer plano, y una persona con la máscara de Anonymous acechando en la sombra, representando una amenaza omnipresente en el contexto de la seguridad informática.](img/04-seguridad/seguridad-informatica-dalle.jpg){.rounded-4}
 
 # 🔑Contraseñas Seguras
 
@@ -33,6 +31,14 @@ Las contraseñas **son la primera línea de defensa** contra accesos no autoriza
 - **Cambiar contraseñas regularmente**: Actualizar las contraseñas cada cierto tiempo.
 - **Activar la Autenticación de Dos Factores (2FA)**: Añade una capa extra de seguridad al requerir una segunda forma de verificación.
 
+> [!tip]
+> Con los generadores de contraseñas puedes generar claves seguras según los criterios que necesites, asegurándote que nunca se repiten ni que sigan un patrón distinguible.
+>
+> |                          Bitwarden                           |                           LastPass                           |
+> | :----------------------------------------------------------: | :----------------------------------------------------------: |
+> | <img src="img/04-seguridad/generador-bitwarden.png" alt="Generador de contraseñas seguras Bitwarden" style="width:500px" class="rounded-4" /> | <img src="img/04-seguridad/generador-lastpass.png" alt="Generador de contraseñas seguras lastPass" style="width:500px" class="rounded-4" /> |
+> |       https://bitwarden.com/es-la/password-generator/        |   https://www.lastpass.com/es/features/password-generator    |
+
 ## Autenticación multifactor
 
 Es un sistema en el que los usuarios se autentican mediante la presentación de múltiples piezas de información u objetos. **Un sistema multifactor** **debería de pedirte al menos dos** de los siguientes elementos:
@@ -45,61 +51,117 @@ Es un componente de seguridad muy importante, ya que si sólo se usan contraseñ
 
 Es el sistema que usan los bancos (contraseña + SMS) o las cuentas de compañías como Google, Microsoft o Amazon para iniciar sesión en sus servicios. Normalmente encontrarás las opciones para activarlas en la configuración de seguridad o privacidad de cada servicio.
 
-<div style="text-align: center">
-    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=es" target="_blank" style="
-        display: inline-block;
-        padding: 10px 20px;
-        margin: 30px;                                                                                                                     font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        color: #ffffff;
-        background-color: #34B793;
-        border: none;
-        border-radius: 4px;
-        text-align: center;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-        -webkit-transition: background-color 0.3s ease;
-        -moz-transition: background-color 0.3s ease;
-        -o-transition: background-color 0.3s ease;
-    " onmouseover="this.style.backgroundColor='#2C8C42';" onmouseout="this.style.backgroundColor='#34A853';">
-        <img src="img/04-seguridad/logo-googleauth.png" alt="Google Authenticator" style="
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 27px;
-            height: 20px;
-        ">
-        Aplicación Google Authenticator
-    </a>
-    <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=es" target="_blank" style="
-        display: inline-block;
-        padding: 10px 20px;
-        margin: 30px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        color: #ffffff;
-        background-color: #34B793;
-        border: none;
-        border-radius: 4px;
-        text-align: center;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-        -webkit-transition: background-color 0.3s ease;
-        -moz-transition: background-color 0.3s ease;
-        -o-transition: background-color 0.3s ease;
-    " onmouseover="this.style.backgroundColor='#2C8C42';" onmouseout="this.style.backgroundColor='#34A853';">
-        <img src="img/04-seguridad/logo-microsoftauth.png" alt="Microsoft Authenticator" style="
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 27px;
-            height: 20px;
-        ">
-        Aplicación Microsoft Authenticator
-    </a>
+<div style="border: 2px solid #dc3545; background-color: #fff5f5; padding: 1.5em; border-radius: 8px; margin: 2em 0;">
+    <h2 style="color: #dc3545; margin-top: 0;">⚠️ ¡Protege tus cuentas críticas con MFA!</h2>
+    <p style="font-size: 1.1em; color: #212529;">
+        Activar la autenticación multifactor (MFA) en cuentas personales como 
+        <strong style="color: #000;">Google</strong> o 
+        <strong style="color: #000;">Microsoft</strong> no es una recomendación: es una necesidad.
+    </p>
+    <p style="font-size: 1.05em; color: #212529; margin-bottom: 0.5em;">
+        <strong style="color: #000;">☁️ En una cuenta de Google puedes tener:</strong>
+    </p>
+    <ul style="color: #212529; font-size: 1em; padding-left: 1.5em;">
+        <li>Gmail (correos personales y laborales)</li>
+        <li>Google Drive (documentos, hojas de cálculo, PDFs...)</li>
+        <li>Google Fotos (fotos y vídeos personales)</li>
+        <li>Historial de navegación y búsquedas (Chrome y Android)</li>
+        <li>Contraseñas guardadas en Chrome y autocompletado de formularios</li>
+        <li>Historial de ubicaciones</li>
+        <li>Cuenta de YouTube, videos e historial de visionado</li>
+        <li>Calendarios, contactos, notas y más</li>
+    </ul>
+    <p style="font-size: 1.05em; color: #212529; margin-top: 1.5em; margin-bottom: 0.5em;">
+        <strong style="color: #000;">🪟 En una cuenta de Microsoft puedes tener:</strong>
+    </p>
+    <ul style="color: #212529; font-size: 1em; padding-left: 1.5em;">
+        <li>Correo de Outlook</li>
+        <li>Archivos en OneDrive</li>
+        <li>Cuenta de Windows (para iniciar sesión en el equipo)</li>
+        <li>Suscripciones a Microsoft 365 (Word, Excel, Teams...)</li>
+        <li>Historial de actividad en Edge</li>
+        <li>Juegos digitales comprados y logros de Xbox</li>
+        <li>Acceso a chats y contenido de Copilot</li>
+    </ul>
+    <p style="font-size: 1.3em; color: #212529; margin-top: 1.5em;">
+        Toda esta información de años pueden descargarla en segundos. Y analizarla posteriormente con tranquilad.
+    </p>
+    <p style="font-size: 1.1em; color: #212529; margin-top: 1.5em;"><strong style="color: #000;">Una contraseña fuerte no es suficiente. Activa el segundo factor.</strong> Es rápido, gratuito y te puede evitar un desastre.</p>
 </div>
 
-![Pantalla de Configuración de la Seguridad en Google](../../../Curso de Seguridad de los sistemas informáticos/docs/md/img/03-tecnicas_proteccion/mfa-google.png)
+
+
+### Aplicaciones para usar MFA
+
+<!-- Aunque en typora no se vea bien, en la importación a HTML con Temar.io se ve perfecto -->
+
+<div style="display:flex; justify-content:center; gap:24px; flex-wrap:wrap; margin:20px 0;">
+  <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=es" target="_blank"
+     style="width:340px; height:65px; display:inline-flex!important; align-items:center!important; justify-content:center!important; gap:6px!important; padding:0 16px!important; color:#fff!important; background:#34B793!important; border-radius:8px!important; text-decoration:none!important;">
+    <img src="img/04-seguridad/logo-googleauth.png" alt="Google Authenticator"
+         style="width:22px!important; height:20px!important; display:block!important; flex:0 0 auto!important; margin:0!important; float:none!important;">
+    <span>Aplicación Google Authenticator</span>
+  </a>
+
+
+  <a href="https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=es" target="_blank"
+     style="width:340px; height:65px; display:inline-flex!important; align-items:center!important; justify-content:center!important; gap:6px!important; padding:0 16px!important; color:#fff!important; background:#34B793!important; border-radius:8px!important; text-decoration:none!important;">
+    <img src="img/04-seguridad/logo-microsoftauth.png" alt="Microsoft Authenticator"
+         style="width:22px!important; height:22px!important; display:block!important; flex:0 0 auto!important; margin:0!important; float:none!important;">
+    <span>Aplicación Microsoft Authenticator</span>
+  </a>
+</div>
+
+### 🧑‍🏫 Práctica: MFA
+
+Vamos a comprobar si tenemos activado MFA en nuestras cuentas personales. Haremos una comprobación en dos plataformas muy comunes: **Google** y **Microsoft**.
+
+> [!note]
+> 📱 **Puedes hacer esta práctica desde tu móvil** si no quieres iniciar sesión en tu cuenta personal desde el ordenador del aula. Solo necesitas acceder a los enlaces desde el navegador del móvil y seguir los mismos pasos.
+
+<div style="display:flex; justify-content:space-around; align-items:flex-start; gap:1rem; margin:1rem 0;">
+  <img src="img/04-seguridad/image-20240710131527405.png" alt="Pantalla de configuración de seguridad de Google"
+       class="img-preview" style="height:auto; width:auto; max-width:48%; object-fit:contain;">
+  <img src="img/04-seguridad/image-20250415185634787.png" alt="Panel de seguridad de la cuenta de Microsoft"
+       class="img-preview" style="height:auto; width:auto; max-width:48%; object-fit:contain;">
+</div>
+
+
+
+**🔐 Cuenta de Google**
+
+1. Accede a: [https://myaccount.google.com/security](https://myaccount.google.com/security)
+2. Baja hasta la sección **“Cómo acceder a Google”**
+3. Busca el apartado **“Verificación en dos pasos”**
+4. Si pone “Activada” ✅, ya tienes MFA habilitado.
+5. Si no está activada, haz clic y sigue los pasos para configurarla (te pedirá iniciar sesión y luego añadir un método como SMS o [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2))
+
+
+
+**🔐 Cuenta de Microsoft (Outlook, Microsoft 365, etc.)**
+
+1. Accede a: https://account.live.com/Activity
+2. Inicia sesión con tu cuenta de Microsoft si no lo has hecho
+3. Verás un panel con los métodos de inicio de sesión habilitados
+4. Si tienes algo como “Aplicación de autenticación” o “Número de teléfono”, ¡ya tienes MFA!
+5. Si no, pulsa en **“+ Agregar método”** y elige cómo proteger tu cuenta (app, SMS, email…)
+
+> [!tip]
+> Puedes activar MFA incluso si no te obliga la plataforma. Es una medida sencilla que te protege muchísimo.
+
+> [!tip]
+> Puedes usar las aplicaciones de autenticación de Google y Microsoft indistintamente para ambas cuentas. Es decir, puedes usar la de Google para iniciar sesión en Google y en Microsoft y viceversa. No es necesario usar ambas aplicaciones.
+
+
+
+**💬 Preguntas para reflexionar:**
+
+- ¿Tenías activado MFA antes de esta práctica?
+- ¿Qué método has elegido o ya tenías configurado?
+- ¿En qué otras cuentas personales crees que deberías activarlo también?
+
+
+
 
 > [!IMPORTANT]
 >
@@ -109,77 +171,82 @@ Es el sistema que usan los bancos (contraseña + SMS) o las cuentas de compañí
 
 # 🤷Usuarios
 
-En muchas ocasiones, **el usuario es considerado el eslabón más débil en la cadena de seguridad informática**. Esto se debe a que, sin importar cuán avanzadas sean las medidas de seguridad implementadas, un simple error humano puede comprometer la integridad de un sistema. Por lo tanto, es crucial que los usuarios tomen conciencia de su papel y responsabilidad en la protección de la información.
+En muchas ocasiones, **el usuario es considerado el eslabón más débil en la cadena de seguridad informática**. Esto se debe a que, sin importar cuán avanzadas sean las medidas de seguridad implementadas, un simple error humano puede comprometer la integridad de un sistema. 
 
-![Imagen de un monitor lleno de postit con contraseñas apuntadas, representando la vulnerabilidad informática por errores humanos](img/04-seguridad/image-20220728102552481.png)
+Por lo tanto, es crucial que los usuarios tomen conciencia de su papel y responsabilidad en la protección de la información.
+
+![Imagen de un monitor lleno de postit con contraseñas apuntadas, representando la vulnerabilidad informática por errores humanos](img/04-seguridad/claves-postit.png){.rounded-4}
 
 Tanto en el uso de equipos privados como en entornos laborales, los usuarios deben adoptar ciertas prácticas y comportamientos para fortalecer la seguridad:
 
 **Conceptos básicos:**
 
-- **🚨⚠️DESCONFÍA ABSOLUTAMENTE DE TODO⚠️🚨:** Sea lo que sea, casi seguro que es mentira. Todo. Desconfía de cualquier mensaje, SMS, correo, noticia o aplicación que haya en internet.
+- **📧Ser precavidos con los correos electrónicos**: Desconfiar de correos no solicitados, especialmente aquellos que solicitan información personal o financiera. Siempre verificar la autenticidad del remitente antes de tomar cualquier acción.
+- **🧭Navegar con precaución**: Evitar visitar sitios web sospechosos o descargar archivos de fuentes no confiables. Utilizar navegadores con filtros de seguridad activados.
+- **🔐Mantener la información confidencial**: No compartir contraseñas ni información sensible a través de canales inseguros. Utilizar métodos de comunicación cifrados para datos críticos.
+- **🔄️Actualizar regularmente**: Asegurarse de que el sistema operativo, aplicaciones y programas de seguridad estén siempre actualizados. Las actualizaciones suelen incluir parches que corrigen vulnerabilidades conocidas.
+- **🛡️Utilizar herramientas de seguridad**: Instalar y mantener activo un software antivirus y antimalware. Configurar firewalls para monitorear el tráfico entrante y saliente.
+- **👀Ser cuidadosos con los dispositivos físicos**: No dejar dispositivos como portátiles, teléfonos móviles o USB desatendidos en lugares públicos. Proteger los dispositivos con contraseñas o métodos de autenticación biométrica.
 
-- **Ser precavidos con los correos electrónicos**: Desconfiar de correos no solicitados, especialmente aquellos que solicitan información personal o financiera. Siempre verificar la autenticidad del remitente antes de tomar cualquier acción.
-
-- **Navegar con precaución**: Evitar visitar sitios web sospechosos o descargar archivos de fuentes no confiables. Utilizar navegadores con filtros de seguridad activados.
-
-- **Mantener la información confidencial**: No compartir contraseñas ni información sensible a través de canales inseguros. Utilizar métodos de comunicación cifrados para datos críticos.
-
-- **Actualizar regularmente**: Asegurarse de que el sistema operativo, aplicaciones y programas de seguridad estén siempre actualizados. Las actualizaciones suelen incluir parches que corrigen vulnerabilidades conocidas.
-
-- **Utilizar herramientas de seguridad**: Instalar y mantener activo un software antivirus y antimalware. Configurar firewalls para monitorear el tráfico entrante y saliente.
-
-- **Ser cuidadosos con los dispositivos físicos**: No dejar dispositivos como portátiles, teléfonos móviles o USB desatendidos en lugares públicos. Proteger los dispositivos con contraseñas o métodos de autenticación biométrica.
-
-  
+> [!caution]
+>
+> **🚨⚠️DESCONFÍA ABSOLUTAMENTE DE TODO⚠️🚨:** Sea lo que sea, casi seguro que es mentira. Todo. Desconfía de cualquier mensaje, SMS, correo, noticia o aplicación que haya en internet.
 
 # 🎣Fraudes y Phishing
 
 El phishing es una **técnica utilizada por ciberdelincuentes para engañar a las personas** y obtener información confidencial, como contraseñas o datos bancarios, haciéndose pasar por entidades confiables.
 
-![Una imagen que represente el phishing con mucha gente en un parque usando sus ordenadores y móviles de forma despreocupada e inocente, y detrás de cada uno de ellos está escondido un hacker intentando pescarlos, simbolizando el intento de engaño.](img/04-seguridad/phishing-copilot.jpg)
+![Una imagen que represente el phishing con mucha gente en un parque usando sus ordenadores y móviles de forma despreocupada e inocente, y detrás de cada uno de ellos está escondido un hacker intentando pescarlos, simbolizando el intento de engaño.](img/04-seguridad/phishing-copilot.jpg){.rounded-4}
 
 ## Cómo reconocer un intento de phishing
 
-- **Remitente desconocido**: Correos de remitentes desconocidos o sospechosos.
-- **Errores ortográficos y gramaticales**: Mensajes con errores son una señal de alerta.
-- **Enlaces sospechosos**: Enlaces que no coinciden con la URL oficial de la entidad.
-- **Solicitudes urgentes**: Mensajes que crean un sentido de urgencia para tomar acciones inmediatas. Piensa con frialdad y recuerda desconfiar DE TODO.
+- ❓**Remitente desconocido**: Correos de remitentes desconocidos o sospechosos.
+- 🔤**Errores ortográficos y gramaticales**: Mensajes con errores son una señal de alerta.
+- 🤔**Enlaces sospechosos**: Enlaces que no coinciden con la URL oficial de la entidad.
+- ‼️**Solicitudes urgentes**: Mensajes que crean un sentido de urgencia para tomar acciones inmediatas. Piensa con frialdad y recuerda desconfiar DE TODO.
 
-**Ejemplo:**
+> [!warning]
+>
+> “Gracias” a la IA, las técnicas de phishing son más sofisticadas y difíciles de detectar, por lo que la mejor defensa sigue siendo el **sentido común**.
+
+**Ejemplo real:**
 
 Recibes un SMS con el siguiente texto:
 
-![Captura de un SMS malicioso que lleva a una Web falsa](img/04-seguridad/image-20240710134535891.png)
+![Captura de un SMS malicioso que lleva a una Web falsa](img/04-seguridad/image-20240710134535891.png){.rounded-4}
 
 Pulsamos sobre el enlace que aparece en el SMS, aunque sea una dirección un poco rara, pero tengo un mes para pagar la multa. Nos lleva a la siguiente página.
 
-![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710134725812.png)
+![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710134725812.png){.rounded-4}
 
 Aparente estoy en la web de la DGT, aunque su URL es un poco rara. ¡Ahora resulta que tengo 24 horas para pagar la multa! Empiezan los nervios. Y claro, como son “solo” 35€, pues tendremos que pagarla. Pulsamos en “Pagar la multa”
 
-![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710135305035.png)
+![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710135305035.png){.rounded-4}
 
 Para ser la DGT y haberme puesto una multa, me están pidiendo demasiados datos que ya deberían de tener. No me piden la matrícula del coche, que raro. También la página tiene elementos raros por la parte de arriba, pero como estoy nervioso no me doy cuenta de esos detalles. Solo quiero pagar la multa y que termine el infierno. Me invento todos los datos y pulso “Continuar”. ¿Porqué me deja continuar si me inventé todos los datos?
 
-![image-20240710135735842](img/04-seguridad/image-20240710135735842.png)
+![image-20240710135735842](img/04-seguridad/image-20240710135735842.png){.rounded-4}
 
 Llegamos al ansiado tesoro. Los datos de mi tarjeta de crédito. Obviamente le pondré los datos correctos para que me cobren la multa, no vaya a ser que tenga que pagar más.
 
 Al continuar al siguiente paso dará error. Siempre. Y puedes revisarlo mil veces que los datos son los correctos. Pero resulta que ese formulario ha enviado los DATOS VÁLIDOS de mi tarjeta de crédito a otra persona muy mala, que puedes dar por hecho que intentará hacer compras en cualquier negocio online con esos datos. Ya puedes darla de baja lo más rápido posible.
 
-![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710140723481.png)
+![Ejemplo de suplantación de identidad, en este caso de la DGT para que pagues una multa](img/04-seguridad/image-20240710140723481.png){.rounded-4}
 
-> [!CAUTION]
+> [!caution]
 >
 > Para usar una tarjeta de crédito en internet, solo es necesario el número, la fecha de expiración y el CVV. Los bancos modernos suelen usar otros medios de seguridad como confirmación a través de su app para autorizar compras online o bien limitar las compras a internet, extranjero, cajeros, etc.
 
 ## Cómo protegerse del phishing
 
-- **No hacer clic en enlaces sospechosos**: Verificar la URL antes de hacer clic. Además, los enlaces pueden tener un texto y llevar a otra página. Ejemplo: [https://www.bbva.es](https://www.dametodoloquetengasoterajo.com).
-- **No compartir información sensible**: Nunca proporcionar datos personales o financieros a través de correos electrónicos, llamadas telefónicas ni formularios.
-- **Utilizar software de seguridad**: Antivirus y filtros de correo pueden detectar y bloquear intentos de phishing. Pero recuerda que el mejor antivirus eres tú 🫶.
-- **Sentido común:** Una entidad de la que eres cliente JAMÁS va a pedirte tus datos. Ya los tiene. Recuerda, desconfía de todo. 
+- 🔗**No hacer clic en enlaces sospechosos**: Verificar la URL antes de hacer clic. Además, los enlaces pueden tener un texto y llevar a otra página. Ejemplo: [https://www.bbva.es](https://www.dametodoloquetengasoterajo.com).
+- ↪️**No compartir información sensible**: Nunca proporcionar datos personales o financieros a través de correos electrónicos, llamadas telefónicas ni formularios.
+- 🛡️**Utilizar software de seguridad**: Antivirus y filtros de correo pueden detectar y bloquear intentos de phishing. Pero recuerda que el mejor antivirus eres tú 🫶.
+- 💡**Sentido común:** Una entidad de la que eres cliente JAMÁS va a pedirte tus datos. Ya los tiene. Recuerda, desconfía de todo. 
+
+> [!tip]
+>
+> 💌Es un buen momento para ir a la bandeja de correo no deseado y disfrutar de la fiesta.
 
 # 🦠Software Malicioso (Malware)
 
@@ -187,7 +254,7 @@ El malware es cualquier software diseñado para dañar, interrumpir u obtener ac
 
 Existen muchos tipos:
 
-![image-20220718212451106](img/04-seguridad/image-20220718212451106.png)
+![image-20220718212451106](img/04-seguridad/image-20220718212451106.png){.rounded-4}
 
 - **Virus**: Funcionan igual que los virus del cuerpo humano, infectan archivos "sanos" y se replican a si mismos.
 
@@ -203,7 +270,7 @@ Existen muchos tipos:
 
 - **Ransomware**: Es un software que toma tus datos como rehén, encriptando su acceso, a cambio de dinero.
 
-- **Botnets**: Están diseñados para aprovecharse de las máquinas conectadas a internet para realizar alguna función distribuida. Es como si miles de equipos infectados se convirtieran en zombies y, usando tus recursos como la CPU, realizaran alguna tarea sin tu consentimiento. Por ejemplo, minería de bitcoins, o algún tipo de ataque organizado.![Representación de Botnets que usan los pc infectados para minería de bitcoins](img/04-seguridad/image-20220718214315456.png)
+- **Botnets**: Están diseñados para aprovecharse de las máquinas conectadas a internet para realizar alguna función distribuida. Es como si miles de equipos infectados se convirtieran en zombies y, usando tus recursos como la CPU, realizaran alguna tarea sin tu consentimiento. Por ejemplo, minería de bitcoins, o algún tipo de ataque organizado.![Representación de Botnets que usan los pc infectados para minería de bitcoins](img/04-seguridad/image-20220718214315456.png){.rounded-4}
 
 - **Backdoor** (puerta trasera): Es una forma de entrar al sistema por otros medios no convencionales. Es una puerta secreta. Normalmente esas puertas las instalan los atacantes después de acceder al sistema, y así mantienen el acceso para poder entrar más veces. Es posible que te des cuenta que han entrado, pero no descubras esa puerta secreta, por lo que pueden volver a entrar una y otra vez hasta que descubras por donde entran.
 
@@ -211,7 +278,7 @@ Existen muchos tipos:
 
 - **Rootkit**: Es una de las más peligrosas, porque pueden hacer de todo. Es un software que permite acceder como administrador al que lo usa, pudiendo obtener o modificar los permisos del sistema tal cual lo haría un administrador. Puede ser difícil de detectar porque puede ocultarse del sistema usando el propio sistema.
 
-  ![Una representación gráfica de un rootkit, un tipo de malware que obtiene control a nivel de administrador sobre un sistema informático, mostrando su naturaleza oculta y dañina dentro de los sistemas informáticos.](img/04-seguridad/rootkit-copilot.jpg)
+  ![Una representación gráfica de un rootkit, un tipo de malware que obtiene control a nivel de administrador sobre un sistema informático, mostrando su naturaleza oculta y dañina dentro de los sistemas informáticos.](img/04-seguridad/rootkit-copilot.jpg){.rounded-4}
 
 ## Cómo Protegerse del Malware
 
@@ -222,17 +289,23 @@ Existen muchos tipos:
 
 # 🛡️Herramientas de protección comunes
 
-La protección contra amenazas cibernéticas requiere el uso de diversas herramientas de seguridad que actúan como barreras y mecanismos de detección ante posibles ataques. Estas herramientas son esenciales para mantener nuestros dispositivos y datos seguros frente a malware, intrusiones y otras formas de ciberataques. A continuación, exploraremos algunas de las herramientas más comunes y efectivas disponibles, tanto integradas en el sistema operativo Windows como ofrecidas por proveedores externos.
+La protección contra amenazas cibernéticas requiere el uso de diversas herramientas de seguridad que actúan como barreras y mecanismos de detección ante posibles ataques. 
 
-<img src="img/04-seguridad/antivirus-copilot.jpg" alt="Un usuario de PC superprotegido por una armadura, campos de fuerza y armas, frente a amenazas como virus, troyanos y hackers" style="width:50%;" />
+Estas herramientas son esenciales para mantener nuestros dispositivos y datos seguros frente a malware, intrusiones y otras formas de ciberataques. 
+
+A continuación, exploraremos algunas de las herramientas más comunes y efectivas disponibles, tanto integradas en el sistema operativo Windows como ofrecidas por proveedores externos.
+
+<img src="img/04-seguridad/antivirus-copilot.jpg" alt="Un usuario de PC superprotegido por una armadura, campos de fuerza y armas, frente a amenazas como virus, troyanos y hackers" style="width:50%;" class="rounded-4" />
 
 > [!IMPORTANT]
 >
-> Las herramientas de protección son indispensables para asegurar nuestros dispositivos y datos en el entorno digital actual. Ya sea utilizando las soluciones integradas en Windows o complementándolas con software de terceros, mantener una buena higiene de seguridad y estar al tanto de las últimas amenazas es fundamental. Seleccionar y configurar adecuadamente estas herramientas puede significar la diferencia entre una red segura y una vulnerable a ataques cibernéticos.
+> Las herramientas de protección son indispensables para asegurar nuestros dispositivos y datos en el entorno digital actual. Ya sea utilizando las soluciones integradas en Windows o complementándolas con software de terceros, mantener una buena higiene de seguridad y estar al tanto de las últimas amenazas es fundamental. 
+>
+> Seleccionar y configurar adecuadamente estas herramientas puede significar la diferencia entre una red segura y una vulnerable a ataques cibernéticos.
 
 ## Herramientas de Protección en Windows
 
-![Seguridad de windows, en Windows 11](img/04-seguridad/image-20240710153329453.png)
+![Seguridad de windows, en Windows 11](img/04-seguridad/image-20240710153329453.png){.rounded-4}
 
 Windows proporciona varias herramientas de seguridad que están integradas en el sistema operativo, ofreciendo una línea de defensa robusta y fácil de usar.
 
@@ -257,7 +330,40 @@ Windows proporciona varias herramientas de seguridad que están integradas en el
 
 > [!NOTE]
 >
-> En Windows 11, todo lo descrito anteriormente está centralizado en la aplicación Seguridad de Windows ➡️![Aplicación Seguridad de Windows 11](img/04-seguridad/image-20240710154326095.png)
+> En Windows 11, todo lo descrito anteriormente está centralizado en la aplicación Seguridad de Windows ➡️![Aplicación Seguridad de Windows 11](img/04-seguridad/image-20240710154326095.png){.img-inline}
+
+
+
+## 👨‍🏫 Práctica: creando un virus en Windows🦠
+
+**Objetivo:** Simular un archivo malicioso (sin peligro real) y comprobar si el antivirus de Windows lo detecta correctamente.
+
+> [!warning]
+> **Este texto no contiene ningún virus real**. Es una prueba oficial (EICAR) reconocida por todos los antivirus. Podemos decir que es un “virus inofensivo” 🦠😇.
+
+**1. Crear el archivo**
+
+- Pulsa <kbd>Win</kbd>, escribe “Bloc de notas” y ábrelo.
+
+- Copia y pega la línea siguiente:
+
+  ```
+  X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+  ```
+
+- Guarda el archivo y llámalo `leeme.txt` y guárdalo en el Escritorio.
+
+> [!note]
+> Si todo está funcionando bien, el archivo será **eliminado al instante** o movido a cuarentena.
+>
+> Si no lo detecta, puedes forzar que Windows Defender lo escanee haciendo `clic derecho sobre el archivo` > `🛡️Examinar con Defender` o haciendo un análisis rápido.
+
+![Windows Defender detectando el virus EICAR](img/04-seguridad/image-20250420153327903.png){.rounded-4}
+
+> [!caution]
+> No intentes subir este archivo a Google Drive o enviarlo por correo: muchos servicios lo bloquearán automáticamente ya que **es tratado como un virus**, aunque sea inofensivo.
+
+---
 
 ## Soluciones de Terceros
 
@@ -299,4 +405,6 @@ Además de las herramientas integradas en Windows, **existen muchas soluciones d
 
 > [!WARNING]
 >
-> 🐛🪱🦠🛡️No instales más de un software antivirus en el mismo equipo simultáneamente. Esto puede afectar seriamente el rendimiento y causar interferencias entre ellos. Elige uno y mantén solo ese y sobre todo, el sentido común.
+> 🐛🪱🦠🐴🥒🛡️No instales más de un software antivirus en el mismo equipo simultáneamente. Esto puede afectar seriamente el rendimiento y causar interferencias entre ellos. Elige uno y mantén solo ese y sobre todo, el sentido común.
+>
+> ![simpsons-germs](img/04-seguridad/simpsons-germs.gif){.rounded-4}
