@@ -1,18 +1,16 @@
 
 
-# Índice
-
 [TOC]
-
-------
-
-
 
 # 🌐Introducción a Internet
 
-**Internet** es una red global de computadoras interconectadas que permite la comunicación y el intercambio de información a nivel mundial. Es como una red gigantesca de carreteras digitales que conecta a personas, empresas, instituciones y gobiernos en todo el mundo.
+> [!note] Definición
+>
+> 📢**Internet** es una red global de computadoras interconectadas que permite la comunicación y el intercambio de información a nivel mundial. 
 
-![Representación artística de Internet como una red global de computadoras interconectadas para el intercambio de información a nivel mundial](img/03-internet/internet-segun-copilot.jpeg)
+Es como una red gigantesca de carreteras digitales que conecta a personas, empresas, instituciones y gobiernos en todo el mundo.
+
+![Representación artística de Internet como una red global de computadoras interconectadas para el intercambio de información a nivel mundial](img/03-internet/internet-segun-copilot.jpeg){.rounded-4}
 
 ## Historia y Evolución
 
@@ -23,11 +21,13 @@
 
 ## Funcionamiento Básico
 
+![Comunicación básica de internet](img/03-internet/image-20251102103757212.png){.rounded-4}
+
 Internet funciona mediante una infraestructura física y lógica compleja:
 
-- **Infraestructura física**: Consiste en cables de fibra óptica, satélites, antenas y otros medios de transmisión que permiten la interconexión global.
-- **Protocolos de comunicación**: Los datos se transmiten a través de protocolos estándar como TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet), que aseguran la correcta transmisión y recepción de la información.
-- **Servidores y clientes**: La información se almacena en servidores, que son computadoras especializadas, y se accede a ella mediante clientes como navegadores web y aplicaciones.
+- **📡Infraestructura física**: Consiste en cables de fibra óptica, satélites, antenas y otros medios de transmisión que permiten la interconexión global.
+- **📣Protocolos de comunicación**: Los datos se transmiten a través de protocolos estándar como TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet), que aseguran la correcta transmisión y recepción de la información.
+- **💻Servidores y clientes**: La información se almacena en servidores, que son computadoras especializadas, y se accede a ella mediante clientes como navegadores web y aplicaciones.
 
 > [!TIP]
 >
@@ -37,11 +37,15 @@ Internet funciona mediante una infraestructura física y lógica compleja:
 
 Internet ha transformado la manera en que interactuamos, trabajamos, aprendemos y nos entretenemos. Sus principales beneficios incluyen:
 
-- **Acceso a la información**: Facilita el acceso instantáneo a una vasta cantidad de datos y conocimientos.
-- **Comunicación**: Permite la comunicación en tiempo real a través de correos electrónicos, redes sociales, videoconferencias, entre otros.
-- **Comercio y economía**: Impulsa el comercio electrónico y la globalización de los negocios.
-- **Educación y aprendizaje**: Ofrece recursos educativos y plataformas de aprendizaje en línea accesibles desde cualquier lugar.
-- **Innovación y desarrollo**: Fomenta la innovación tecnológica y el desarrollo de nuevas aplicaciones y servicios.
+- 🌐 **Acceso a la información**: Facilita el acceso instantáneo a una vasta cantidad de datos y conocimientos.  
+- 💬 **Comunicación**: Permite la comunicación en tiempo real a través de correos electrónicos, redes sociales, videoconferencias, entre otros.  
+- 💰 **Comercio y economía**: Impulsa el comercio electrónico y la globalización de los negocios.  
+- 🎓 **Educación y aprendizaje**: Ofrece recursos educativos y plataformas de aprendizaje en línea accesibles desde cualquier lugar.  
+- 💡 **Innovación y desarrollo**: Fomenta la innovación tecnológica y el desarrollo de nuevas aplicaciones y servicios.  
+
+> [!tip] Pregunta
+>
+> 🧑‍🏫¿Podríamos mencionar un ejemplo real de cada beneficio que hemos nombrado?
 
 ---
 
@@ -55,13 +59,17 @@ Los **navegadores web** son aplicaciones diseñadas para acceder y visualizar p�
 
 ## Los más populares
 
-![Los 10 navegadores de Internet más usados del mercado](img/03-internet/navegadores-web.jpg)
+![Los 10 navegadores de Internet más usados del mercado](img/03-internet/navegadores-web.jpg){.img-preview}
 
 1. **Google Chrome**: Desarrollado por Google, es conocido por su velocidad, estabilidad y compatibilidad con numerosas extensiones. Es el navegador más utilizado a nivel mundial.
 2. **Mozilla Firefox**: Conocido por su enfoque en la privacidad y la personalización. Es de código abierto y ofrece una amplia gama de extensiones para adaptarse a diferentes necesidades.
 3. **Microsoft Edge**: Sucesor de Internet Explorer, Edge está integrado en el sistema operativo Windows y se destaca por su integración con servicios de Microsoft y su enfoque en la seguridad y la productividad.
 4. **Safari**: El navegador predeterminado en los dispositivos Apple (Mac, iPhone, iPad). Es conocido por su rendimiento eficiente y su integración con el ecosistema Apple.
 5. **Opera**: Ofrece características únicas como un VPN integrado, bloqueo de anuncios y un modo de ahorro de batería, lo que lo hace popular entre usuarios que valoran la privacidad y la eficiencia.
+
+> [!tip] Pregunta
+>
+> 👩‍🏫¿Sabrías identificar a los navegadores mencionados en la imagen?
 
 Aquí te dejamos una tabla con los principales navegadores y sus enlaces de descarga. También verás los usuarios aproximados de cada uno para que te hagas una idea de la popularidad de cada uno.
 
@@ -77,7 +85,7 @@ Aquí te dejamos una tabla con los principales navegadores y sus enlaces de desc
 | **Vivaldi**          | Navegador personalizable con herramientas avanzadas para usuarios expertos. | https://vivaldi.com              | 2 millones                  |
 | **Tor**              | Navegador especializado en proteger al usuario del rastreo, la vigilancia y la censura. | https://www.torproject.org/es/   | 2 millones                  |
 
-> [!TIP]
+> [!note]
 >
 > Muchos navegadores deben su popularidad y número de usuarios debido a que vienen preinstalados en muchos dispositivos, ya sean del fabricante o por acuerdos con otros fabricantes.
 
@@ -87,21 +95,30 @@ Aquí te dejamos una tabla con los principales navegadores y sus enlaces de desc
 
 - **Navegación por pestañas**: Permite abrir varias páginas web en una sola ventana y cambiar fácilmente entre ellas.
 
-  ![Ejemplo de navegación por pestañas en Google Chrome](img/03-internet/image-20240709140158477.png)
+  ![Ejemplo de navegación por pestañas en Google Chrome](img/03-internet/image-20240709140158477.png){.rounded-3}
 
-- **Barra de direcciones**: Donde se introduce la URL (Uniform Resource Locator) de la página web a la que se quiere acceder.
+- **Barra de direcciones**: Donde se introduce la URL (*Uniform Resource Locator*) de la página web a la que se quiere acceder.
 
-  ![Ejemplo de barra de direcciones en Google Chrome](img/03-internet/image-20240709140239892.png)
+  ![Ejemplo de barra de direcciones en Google Chrome](img/03-internet/image-20240709140239892.png){.rounded-3}
 
 - **Marcadores y historial**: Facilitan guardar y organizar páginas web favoritas y acceder rápidamente al historial de navegación. Las web favoritas suelen llamarse **marcadores** o **favoritos** y suelen tener asociado el icono de una estrella ⭐.
 
-  ![Ejemplo de barra de favoritos en Microsoft Edge](img/03-internet/image-20240709140318909.png)
+  ![Ejemplo de barra de favoritos en Microsoft Edge](img/03-internet/image-20240709140318909.png){.rounded-3}
 
 - **Privacidad y seguridad**: Incluyen funciones como bloqueo de ventanas emergentes, protección contra sitios web maliciosos y la opción de navegar de forma privada (modo incógnito).
 
-  ![Ejemplo de Navegación privada en Google Chrome](img/03-internet/image-20240709140425690.png)
+  ![Ejemplo de Navegación privada en Google Chrome](img/03-internet/image-20240709140425690.png){.rounded-3}
 
-  
+
+## 👩‍🏫Práctica
+
+Vamos a practicar un poco con nuestro navegador.
+
+1. Abre el navegador que tengas instalado en tu PC. Recuerda que Edge está instalado en todos.
+2. Abre en una pestaña el temario del curso, <kbd>curso-competencias-digitales.netlify.app</kbd>. Abre en otra pestaña otra dirección, por ejemplo <kbd>curso-office365.netlify.app</kbd>. Recuerda que tendrás que escribir la dirección manualmente o copia y pega en la barra de direcciones.
+3. Deberás tener (como mínimo) dos pestañas abiertas simultáneamente, cada una con una web distinta. Observa como puedes cambiar de una a otra.
+4. Guarda las páginas en favoritos. Cada navegador tiene su forma, por lo que deberás investigar como se hace.
+5. Cierra las pestañas y por último el navegador. Vuelve a abrir el navegador y usa los favoritos para acceder de nuevo a las web. Así no tendrás que escribirlas cada vez que tengas que ir al temario.
 
 ​              
 
@@ -117,7 +134,7 @@ Las descargas en los navegadores web permiten a los usuarios **guardar archivos 
 4. **Verificación y Seguridad:** Los navegadores modernos realizan verificaciones de seguridad automáticas durante las descargas para proteger al usuario contra archivos maliciosos. Esto incluye análisis de virus y malware, así como la comprobación de la autenticidad de los certificados de seguridad de la página web desde donde se realiza la descarga.
 5. **Descarga completada:** Una vez completada la descarga, el navegador notifica al usuario, generalmente con una notificación emergente o mediante un icono específico en la interfaz. El archivo descargado está disponible en la ubicación especificada por el usuario para su acceso inmediato.
 
-> [!TIP]
+> [!TIP] 
 >
 > 🧑‍🏫Prueba a descargar la imagen anterior (la del proceso de descarga) haciendo sobre la imagen`Clic derecho` > `Guardar imagen como...`. 
 >
@@ -133,15 +150,21 @@ Realizar una búsqueda en Internet es un proceso sencillo que te permite encontr
 
 2. **Ingresar la Consulta**: En la barra de direcciones o en el campo de búsqueda del navegador, escribe lo que estás buscando. Por ejemplo, "recetas de cocina", "mejores destinos para vacaciones", o "cómo aprender programación".
 
-   ![Ejemplo de búsqueda usando la barra de búsqueda](img/03-internet/image-20240709144606795.png)
+   ![Ejemplo de búsqueda usando la barra de búsqueda](img/03-internet/image-20240709144606795.png){.rounded-3}
 
 3. **Presionar Enter o Hacer Clic en Buscar**: Una vez que hayas escrito tu consulta, presiona la tecla <kbd>Enter</kbd> en tu teclado o haz clic en el botón de búsqueda (generalmente una lupa) en la barra de búsqueda.
 
 4. **Ver los Resultados**: El navegador te mostrará una página con una lista de resultados relevantes a tu búsqueda. Cada resultado incluirá un título, una breve descripción y una URL que te llevará al sitio web correspondiente.
 
-   ![Resultados de buscar “Brad Pitt en falda en la barra de búsqueda de Google Chrome”](img/03-internet/image-20240709144722553.png)
+   ![Resultados de buscar “Brad Pitt en falda en la barra de búsqueda de Google Chrome”](img/03-internet/image-20240709144722553.png){.rounded-3}
 
 5. **Explorar los Resultados**: Puedes hacer clic en cualquier resultado para abrir la página web y encontrar más información sobre el tema que buscas. Normalmente se ofrecerán resultados más relevantes agrupados por: `Todo`, `Imágenes`, `Vídeos`, `Noticias`, etc. En nuestro ejemplo, como hemos buscado algo visual, directamente nos ha mostrado inicialmente `Imágenes`, y después ha mostrado `Noticias` (aunque no se ven en la captura).
+
+> [!tip]
+>
+> Si buscas en Google, puedes probar el nuevo Modo IA.
+>
+> ![image-20251102114201951](img/03-internet/image-20251102114201951.png)
 
 
 
@@ -149,21 +172,28 @@ Realizar una búsqueda en Internet es un proceso sencillo que te permite encontr
 
 Muchas veces buscar algo concreto en Internet es como entrar a una selva profunda sin machete. Encontrarás muchisimos resultados que no son los que tu estás buscando, por lo que tendrás que filtrar entre mucha maleza la información que quieres. Siempre encontraremos información que no queremos, pero es importante seguir los siguientes consejos para aumentar las posibilidades de encontrar lo que queremos.
 
-![Reality TV gif. Man on Kicking and Screaming swings a machete over his shoulder like he’s ready to cut something in front of him, but he accidentally gets the tip stuck in the tree behind him.](img/03-internet/selva-machete.gif)
+![Reality TV gif. Man on Kicking and Screaming swings a machete over his shoulder like he’s ready to cut something in front of him, but he accidentally gets the tip stuck in the tree behind him.](img/03-internet/selva-machete.gif){.rounded-3}
 
-- **Utiliza Palabras Clave**: Usa términos específicos relacionados con lo que estás buscando. Evita las generalizaciones o ambigüedades.
-- **Refina tu Búsqueda**: Si los resultados no son lo que esperabas, prueba agregar más detalles a tu consulta.
-- **Filtra los Resultados**: Algunos motores de búsqueda te permiten usar filtros para encontrar resultados más específicos, como imágenes, videos o noticias.
+- **💡Utiliza Palabras Clave**: Usa términos específicos relacionados con lo que estás buscando. Evita las generalizaciones o ambigüedades.  
+  👉 *Ejemplo:* En lugar de buscar “animales”, escribe “hábitat del lobo ibérico” o “alimentación de los delfines”.  
+
+- **🔎Refina tu Búsqueda**: Si los resultados no son lo que esperabas, prueba agregar más detalles a tu consulta.  
+  👉 *Ejemplo:* Si al buscar “historia del arte” obtienes resultados muy amplios, prueba con “historia del arte renacentista italiano”.  
+
+- **🪚Filtra los Resultados**: Algunos motores de búsqueda te permiten usar filtros para encontrar resultados más específicos, como imágenes, videos o noticias.  
+  👉 *Ejemplo:* En Google, puedes hacer clic en “Imágenes” o “Noticias” después de buscar, o usar herramientas de tiempo para mostrar solo resultados recientes.  
 
 ### Motores de búsqueda
 
 Los motores de búsqueda son sistemas informáticos diseñados para ayudar a los usuarios a encontrar información específica en la vasta red de Internet. Utilizan algoritmos complejos para rastrear y catalogar contenido web, permitiendo a los usuarios buscar términos clave y recibir resultados relevantes en cuestión de segundos.
 
-Mientras que un navegador web es la herramienta que utilizas para acceder y explorar Internet, un motor de búsqueda es la herramienta que utilizas dentro del navegador para encontrar información específica en la web.
+> [!important]
+>
+> Mientras que un navegador web es la herramienta que utilizas para acceder y explorar Internet, **un motor de búsqueda es la herramienta que utilizas dentro del navegador para encontrar información** específica en la web.
 
 Normalmente cada navegador tiene su motor de búsqueda predeterminado pero siempre pueden cambiarse de una forma u otra. A veces de una forma rebuscada dentro de sus opciones de configuración, u otras veces lo hacen de forma obligada debido a la [Ley de Mercados Digitales (DMA) de la Unión Europea](https://computerhoy.com/tecnologia/chrome-te-obligara-elegir-motor-busqueda-favorito-partir-fecha-1347506), que intenta evitar prácticas anticompetitivas por parte de grandes empresas tecnológicas.
 
-![Selección de motores de búsqueda en Google Chrome, obligado por la ley DMA](img/03-internet/image-20240709144432532.png)
+![Selección de motores de búsqueda en Google Chrome, obligado por la ley DMA](img/03-internet/image-20240709144432532.png){.rounded-4}
 
 > [!WARNING]
 >
@@ -181,7 +211,7 @@ La inteligencia artificial (IA) es una rama de la informática que se dedica a c
 
 La **inteligencia artificial generativa** es una rama de la IA que se centra en la **creación de contenido nuevo** y original a partir de datos existentes. Utiliza modelos avanzados de aprendizaje automático para **generar texto, imágenes, música, videos y más**. Por ejemplo, puede escribir un poema, crear una obra de arte digital o componer una melodía.
 
-![A detailed oil painting of figures in a futuristic opera scene](img/03-internet/1280px-Théâtre_D’opéra_Spatial.png)
+![A detailed oil painting of figures in a futuristic opera scene](img/03-internet/1280px-Théâtre_D’opéra_Spatial.png){.img-preview}
 
 > [!TIP]
 >
@@ -267,7 +297,7 @@ Perplexity es un asistente de inteligencia artificial centrado en la búsqueda d
 
 El **correo electrónico** es un método de comunicación digital que permite a los usuarios enviar y recibir mensajes a través de Internet. Es una de las formas más antiguas y ampliamente utilizadas de comunicación en línea, esencial para la correspondencia personal y profesional.
 
-![La esencia del envío de correo electrónico, según Dall-E](img/03-internet/envio-correo-dalle.jpeg)
+![La esencia del envío de correo electrónico, según Dall-E](img/03-internet/envio-correo-dalle.jpeg){.rounded-4}
 
 ## Servicios de correo electrónico más usados
 
@@ -275,17 +305,21 @@ A continuación, se presenta una tabla con los servicios de correo electrónico 
 
 | **Servicio**   | **Descripción**                                              | **Enlace para Crear Cuenta**                                 |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Gmail**      | Ofrecido por Google, conocido por su interfaz intuitiva y su integración con otros servicios de Google como Google Drive y Google Calendar. Si tienes un móvil android, tienes obligatoriamente una cuenta de GMail. | [Crear cuenta de Google](https://accounts.google.com/signup) |
-| **Outlook**    | Ofrecido por Microsoft, integra funciones de calendario, contactos y tareas, y es compatible con las aplicaciones de Office 365. Anteriormente conocido como Hotmail 👴👵. | [Crear cuenta de Microsoft](https://signup.live.com)         |
-| **Yahoo Mail** | Ofrecido por Yahoo, proporciona una amplia capacidad de almacenamiento y una interfaz fácil de usar. | [Crear cuenta en Yahoo Mail](https://login.yahoo.com/account/create) |
-| **ProtonMail** | Conocido por su enfoque en la seguridad y privacidad, ofrece cifrado de extremo a extremo para proteger los correos electrónicos. | [Crear cuenta en ProtonMail](https://proton.me/signup)       |
-| **Apple Mail** | Parte del ecosistema Apple, permite sincronización con otros dispositivos Apple y servicios como iCloud. | [Crear cuenta en iCloud](https://appleid.apple.com/account)  |
+| **Gmail**      | **Ofrecido por Google**, conocido por su interfaz intuitiva y su integración con otros servicios de Google como Google Drive y Google Calendar. Si tienes un móvil android, tienes obligatoriamente una cuenta de GMail. | [Crear cuenta de Google](https://accounts.google.com/signup) |
+| **Outlook**    | **Ofrecido por Microsoft**, integra funciones de calendario, contactos y tareas, y es compatible con las aplicaciones de Office 365. Anteriormente conocido como Hotmail 👴👵. | [Crear cuenta de Microsoft](https://signup.live.com)         |
+| **Yahoo Mail** | **Ofrecido por Yahoo**, proporciona una amplia capacidad de almacenamiento y una interfaz fácil de usar. | [Crear cuenta en Yahoo Mail](https://login.yahoo.com/account/create) |
+| **ProtonMail** | Conocido por su enfoque en la seguridad y privacidad, ofrece cifrado de extremo a extremo para proteger los correos electrónicos. | [Crear cuenta en ProtonMail](https://account.proton.me/es-es/signup) |
+| **Apple Mail** | Parte del **ecosistema Apple**, permite sincronización con otros dispositivos Apple y servicios como iCloud. | [Crear cuenta en iCloud](https://appleid.apple.com/account)  |
 
 
 
 > [!IMPORTANT]
 >
-> Una **cuenta de Google** te permite acceder a una variedad de servicios proporcionados por Google, como Google Drive, Google Calendar, Google Photos, y más. Por otro lado, una **cuenta de Gmail** es específicamente para gestionar tus correos electrónicos. Sin embargo, cuando creas una cuenta de Gmail, automáticamente obtienes una cuenta de Google, lo que te da acceso a todos los servicios de Google. Es decir, una cuenta de Gmail es una cuenta de Google con acceso adicional a Gmail.
+> Una **cuenta de Google** te permite acceder a una variedad de servicios proporcionados por Google, como Google Drive, Google Calendar, Google Photos, y más. 
+>
+> Por otro lado, una **cuenta de Gmail** es específicamente para gestionar tus correos electrónicos. Sin embargo, cuando creas una cuenta de Gmail, automáticamente obtienes una cuenta de Google, lo que te da acceso a todos los servicios de Google. 
+>
+> **Es decir, una cuenta de Gmail es una cuenta de Google con acceso adicional a Gmail.**
 >
 > Pasa lo mismo con una cuenta de Microsoft y el correo de Outlook (o Hotmail).
 
@@ -311,9 +345,19 @@ A continuación, se describen los términos básicos que encontrarás en casi to
 
 - **Archivos Adjuntos**: Archivos adicionales que se envían junto con el correo electrónico. Pueden ser documentos, imágenes, videos, entre otros. Los archivos adjuntos se agregan a través de una opción específica en la interfaz de correo electrónico. Normalmente suelen admitir “arrastrar y soltar” archivos.
 
-![Ejemplo de ventana de redacción de un correo electrónico](img/03-internet/image-20240710105349460.png)
 
-![Ejemplo de redacción de nuevo correo electrónico enm Outlook](img/03-internet/image-20240710110323508.png)
+
+**Ejemplo de ventana de redacción de un correo electrónico en Gmail**
+
+![Ejemplo de ventana de redacción de un correo electrónico](img/03-internet/image-20240710105349460.png){.rounded-4}
+
+
+
+**Ejemplo de ventana de redacción de un correo electrónico en Outlook**
+
+![Ejemplo de redacción de nuevo correo electrónico enm Outlook](img/03-internet/image-20240710110323508.png){.rounded-4}
+
+
 
 ## Agrupaciones más comunes
 
