@@ -463,7 +463,7 @@ La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminad
 **Cómo funciona:**
 
 1. **Uso:** Cuando borramos un archivo o carpeta, si no es excesivamente grande, se mueven automáticamente a la papelera de reciclaje. No hay que hacer nada en especial.
-2. ###### **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
+2. **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
 3. **Restaurar Archivos:**
    - Selecciona el archivo o carpeta que deseas recuperar.
    - Haz clic derecho sobre el elemento seleccionado y selecciona <kbd>Restaurar</kbd> del menú contextual. El archivo o carpeta se devolverá a su ubicación original.
