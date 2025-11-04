@@ -68,7 +68,7 @@
           "icon": "pi pi-angle-right",
           "severity": "primary",
           "outlined": false,
-          "habilitado": false
+          "habilitado": true
         },
         {
           "id": "seguridad",
