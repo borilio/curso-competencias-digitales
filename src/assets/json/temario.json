@@ -81,7 +81,7 @@
           "icon": "pi pi-angle-right",
           "severity": "primary",
           "outlined": false,
-          "habilitado": false
+          "habilitado": true
         },
         {
           "id": "certificado",
@@ -94,7 +94,7 @@
           "icon": "pi pi-angle-right",
           "severity": "primary",
           "outlined": false,
-          "habilitado": false
+          "habilitado": true
         }
         
         
