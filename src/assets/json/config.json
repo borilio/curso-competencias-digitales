@@ -57,14 +57,16 @@
             },
             {
                 "icon": "pi pi-graduation-cap",
-                "desc": "Cuestionario Inicial",
-                "descLarga": "Cuestionario que inicial que hacemos el primer día de curso, para conocernos un poquito más",
-                "href": "https://forms.office.com/e/XfSxdb5jrZ"
+                "desc": "Cuestionario inicial",
+                "descLarga": "Cuestionario inicial que hacemos el primer día de curso, para conocernos un poquito más",
+                "href": "https://forms.office.com/e/XfSxdb5jrZ",
+                "disabled": true
+              
             },
             {
                 "icon": "pi pi-graduation-cap",
                 "desc": "Cuestionario de evaluación final",
-                "descLarga": "",
+                "descLarga": "Evaluación final del curso de Competencias Digitales. Se habilitará el día que corresponda.",
                 "href" : "https://forms.office.com/e/fSyHAEVhsD",
                 "disabled": true
             }
