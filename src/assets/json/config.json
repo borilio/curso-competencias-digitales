@@ -68,7 +68,7 @@
                 "desc": "Cuestionario de evaluación final",
                 "descLarga": "Evaluación final del curso de Competencias Digitales. Se habilitará el día que corresponda.",
                 "href" : "https://forms.office.com/e/fSyHAEVhsD",
-                "disabled": true
+                "disabled": false
             }
         ]
     }
