@@ -11,5 +11,5 @@
   TEMARIO_REPO = "https://github.com/borilio/temar.io.git"
   # Versión de la app: "master" = siempre la última (cursos en desarrollo);
   # un tag como "v1.0" = anclado a esa versión (cursos terminados).
-  TEMARIO_VERSION = "master"
+  TEMARIO_VERSION = "v0.3.0b"
   NODE_VERSION = "22"          # la app pide Node ^22.16
