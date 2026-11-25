@@ -4,6 +4,7 @@
     "defaultThemeId": "typora",
     "mostrarLigadurasFuentes": true,
     "devMode": false,
+    "guardarPreferencias": false,
     "data": {
         "copyright": "",
         "logos": [
